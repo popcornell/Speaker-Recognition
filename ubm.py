@@ -197,7 +197,7 @@ class UBM(SidekitModel):
 
 
 if __name__ == "__main__":
-    conf_filename = "py3env/conf.yaml"
+    conf_filename = "./conf.yaml"
     ubm = UBM(conf_filename)
     ubm.train()
     ubm.evaluate()

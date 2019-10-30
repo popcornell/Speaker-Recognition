@@ -138,7 +138,7 @@ This process uses the following yaml variables inside `conf.yaml`:
 
 There is also a method called `review_member_variables` that resets these member varibales back to `None` based on the `features` used in the configuration file.
 
-The output of this step can be found at `feat` directory inside the `outpath` directory defined in the configuration file as YAML variable.
+The output of this step can be found at `feat` directory inside the `outpath` directory defined in the configuration file as YAML variable.f
 
 You can download the features used in my model from [here](http://www.mediafire.com/file/03o7i80o7a2taza/feat.zip/file) (32MB). After downloading, you should extract them at directory defined as the `outpath` YAML variable.
 
