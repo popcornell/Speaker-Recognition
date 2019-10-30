@@ -213,6 +213,6 @@ class Initializer():
 
 
 if __name__ == "__main__":
-    conf_filename = "py3env/conf.yaml"
+    conf_filename = "./conf.yaml"
     init = Initializer(conf_filename)
     init.structure()

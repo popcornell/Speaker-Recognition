@@ -1,8 +1,8 @@
 #---! THIS FILE SHOULD BE MODIFIED BASED ON YOUR CASE
 
 #These variables should be changed
-inpath: /media/anwar/D/Data/ASR/Merged_Arabic_Corpus_of_Isolated_Words/original #where input wave data exist
-outpath: /media/anwar/E/Voice_Biometrics/SIDEKIT-1.3/py3env/exp/phase02 #where the program outputs exist
+inpath: /home/sam/Desktop/Merged_Arabic_Corpus_of_Isolated_Words/ #where input wave data exist
+outpath: /tmp/ #where the program outputs exist
 
 
 #training configuration

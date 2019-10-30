@@ -132,7 +132,7 @@ class FeaturesExtractor():
 
 
 if __name__ == "__main__":
-    conf_filename = "py3env/conf.yaml"
+    conf_filename = "./conf.yaml"
     ex = FeaturesExtractor(conf_filename)
     ex.extract_features("enroll")
     ex.extract_features("test")

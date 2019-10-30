@@ -236,7 +236,7 @@ class IVector(SidekitModel):
 
 
 if __name__ == "__main__":
-    conf_path = "py3env/conf.yaml"
+    conf_path = "./conf.yaml"
     iv = IVector(conf_path)
     iv.train_tv()
     iv.evaluate()
